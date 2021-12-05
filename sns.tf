@@ -1,7 +1,7 @@
 # Week 12
 resource "aws_sns_topic" "week14-sns" {
   name              = "week14-sns"
-  kms_master_key_id = "ECE592"
+  # kms_master_key_id = "ECE592"
 }
 
 resource "aws_sns_topic_subscription" "week14-sns-mail" {
